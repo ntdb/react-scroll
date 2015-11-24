@@ -1,7 +1,7 @@
 ## React Scroll
 
-Directive for basic scrolling and smooth scrolling ( work in progress )
-Feel free to contribute - everything is appreciated
+Directive for basic scrolling and smooth scrolling.
+I love contributions, just make sure your test passes.
 
 ### Install
 ```js
@@ -11,6 +11,7 @@ $ npm install react-scroll
 ### Run
 ```js
 $ npm install
+$ npm test
 $ npm run examples
 ```
 
@@ -85,15 +86,3 @@ var Link = React.createClass({
 });
 
 ```
-
-
-
-### Todo
-- [x] Vertical scrolling
-- [x] Scroll to element
-- [x] Smooth scroll animation
-- [x] Live examples
-- [x] Pass scroll/animation duration as settings
-- [ ] Horizontal scrolling
-- [x] Spy on scrolling/Highlight
-- [ ] Write test
